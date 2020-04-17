@@ -1,0 +1,23 @@
+[package]
+name = "rust-sentence-transformers-clj"
+version = "0.1.0"
+authors = ["mladvladimir <mlad.vladimir@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+jni = "0.15.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_bytes = {version = "0.11"}
+serde_clj = "0.1.1"
+rust-sentence-transformers = { git = "https://github.com/mladvladimir/rust-sentence-transformers"}
+tch = "0.1.6"
+failure = "0.1.6"
+rust_tokenizers = "2.0.4"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dev-dependencies]
+serde = { version = "1.0", features = ["derive"] }
