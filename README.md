@@ -1,4 +1,4 @@
-##JNI Bindings for [rust-sentence-transformer](https://github.com/mladvladimir/rust-sentence-transformers) with Clojure working example
+## JNI Bindings for [rust-sentence-transformer](https://github.com/mladvladimir/rust-sentence-transformers) with Clojure working example
 
 Run
 ```bash
